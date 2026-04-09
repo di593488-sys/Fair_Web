@@ -1,0 +1,55 @@
+name: Daily Exhibition Crawl
+
+on:
+  schedule:
+    # Runs every day at 01:00 UTC (10:00 KST)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write # Required to commit the updated JSON file
+
+jobs:
+  crawl:
+    name: Crawl & Update exhibitions.json
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use a token with write access so the commit step can push
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install crawler dependencies
+        working-directory: scripts
+        run: npm install
+
+      - name: Run crawlers
+        run: node scripts/crawl.js
+        env:
+          NODE_ENV: production
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet public/data/exhibitions.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated exhibitions.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/exhibitions.json
+          git commit -m "chore(data): update exhibitions.json [$(date -u +%Y-%m-%d)]"
+          git push

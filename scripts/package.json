@@ -1,0 +1,15 @@
+{
+  "name": "fair-web-crawlers",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Exhibition data crawlers for Fair Web",
+  "main": "crawl.js",
+  "scripts": {
+    "crawl": "node crawl.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "uuid": "^9.0.1"
+  }
+}

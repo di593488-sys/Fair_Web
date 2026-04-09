@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Claude Code local settings
+.claude/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
