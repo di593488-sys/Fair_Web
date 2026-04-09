@@ -8,7 +8,8 @@ const { normalizeDate } = require('../validate');
 const NAMESPACE = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
 const SOURCE = 'BEXCO';
 const BASE_URL = 'https://www.bexco.co.kr';
-const LIST_URL = 'https://www.bexco.co.kr/kor/exhibitions/list';
+// Confirmed working URL — the old /kor/exhibitions/list returns 404
+const LIST_URL = 'https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/list.do?mCode=MN214';
 
 const HTTP_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -29,61 +30,47 @@ async function crawl() {
     const $ = cheerio.load(html);
     const today = new Date().toISOString().slice(0, 10);
 
-    // BEXCO exhibition list selectors
-    const items = $(
-      '.exhibition-list li, .exhb-list-item, .event-item, ' +
-      '.fair-list li, .list-item, .board-list tr'
-    );
-
-    if (items.length === 0) {
-      console.warn(`[${SOURCE}] No items found, trying table rows…`);
-      $('table tbody tr').each((_, row) => {
-        const $row = $(row);
-        const cells = $row.find('td');
-        if (cells.length < 2) return;
-
-        const title = $row.find('a').first().text().trim() || cells.eq(1).text().trim();
-        if (!title) return;
-
-        // Try to find date in any cell
-        let dateText = '';
-        cells.each((_, cell) => {
-          const t = $(cell).text().trim();
-          if (/\d{4}[.\-]\d{1,2}[.\-]\d{1,2}/.test(t)) dateText = t;
-        });
-
-        const { start_date, end_date } = parseDateRange(dateText);
-        if (!start_date || !end_date) return;
-
-        const href = $row.find('a').first().attr('href') || '';
-        const original_url = href.startsWith('http') ? href : href ? `${BASE_URL}${href}` : LIST_URL;
-        results.push(buildItem({ title, start_date, end_date, original_url, today }));
-      });
-      return results;
-    }
+    // Confirmed structure:
+    //   <li>
+    //     <a href="/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=ID">
+    //       <img src="...">
+    //       <span class="badge">전시</span>
+    //       <span class="title">TITLE</span>   (may also be strong — checked both)
+    //       <span class="date">YYYY-MM-DD ~ YYYY-MM-DD</span>
+    //       <span class="location">VENUE</span>
+    //     </a>
+    //   </li>
+    // Use the detail href as the anchor since ul.list class doesn't appear in static HTML
+    const itemLinks = $('a[href*="EventScheduleMgr/view.do"]');
+    const seen = new Set();
+    const items = itemLinks.map((_, el) => $(el).closest('li').get(0)).filter((_, el) => {
+      if (!el) return false;
+      const key = $(el).find('a[href*="EventScheduleMgr/view.do"]').first().attr('href') || '';
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 
     items.each((_, el) => {
       const $el = $(el);
 
-      const title =
-        $el.find('.title, .name, h3, h4, strong, a').first().text().trim();
+      const title = $el.find('span.title').first().text().trim()
+        || $el.find('strong').first().text().trim();
       if (!title) return;
 
-      const dateText =
-        $el.find('.date, .period, .term, time, .schedule').first().text().trim() || '';
-
-      const { start_date, end_date } = parseDateRange(dateText || $el.text());
+      const dateText = $el.find('span.date').first().text().trim();
+      const { start_date, end_date } = parseDateRange(dateText);
       if (!start_date || !end_date) return;
 
-      const href = $el.find('a').first().attr('href') || '';
-      const original_url = href.startsWith('http') ? href : href ? `${BASE_URL}${href}` : LIST_URL;
+      const venue = $el.find('span.location').first().text().trim() || 'BEXCO';
 
-      const image_url = resolveImg($, $el, BASE_URL);
-      const hall = $el.find('.hall, .venue, .place, .location').first().text().trim();
-      const venue = hall ? `BEXCO ${hall}` : 'BEXCO';
-      const description = $el.find('.desc, .summary, p').first().text().trim() || '';
+      const href = $el.find('a[href*="EventScheduleMgr/view.do"]').first().attr('href') || '';
+      const original_url = href.startsWith('http') ? href
+        : href ? `${BASE_URL}${href.startsWith('/') ? href : '/' + href}`
+        : LIST_URL;
 
-      results.push(buildItem({ title, start_date, end_date, original_url, today, image_url, venue, description }));
+      const image_url = resolveImg($el, BASE_URL);
+      results.push(buildItem({ title, start_date, end_date, original_url, today, image_url, venue }));
     });
 
     console.log(`[${SOURCE}] Found ${results.length} items`);
@@ -111,23 +98,18 @@ function buildItem({ title, start_date, end_date, original_url, today, image_url
   };
 }
 
-function resolveImg($, $el, baseUrl) {
+function resolveImg($el, baseUrl) {
   const src = $el.find('img').first().attr('src') || $el.find('img').first().attr('data-src') || '';
   if (!src) return '';
   if (src.startsWith('http')) return src;
-  return `${baseUrl}${src}`;
+  return `${baseUrl}${src.startsWith('/') ? src : '/' + src}`;
 }
 
 function parseDateRange(text) {
   if (!text) return { start_date: null, end_date: null };
-  const rangeMatch = text.match(/(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
-  if (rangeMatch) {
-    return { start_date: normalizeDate(rangeMatch[1]), end_date: normalizeDate(rangeMatch[2]) };
-  }
-  const shortRange = text.match(/(\d{2}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{2}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
-  if (shortRange) {
-    return { start_date: normalizeDate(shortRange[1]), end_date: normalizeDate(shortRange[2]) };
-  }
+  // Format from site: "2026-04-09 ~ 2026-04-12"
+  const m = text.match(/(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
+  if (m) return { start_date: normalizeDate(m[1]), end_date: normalizeDate(m[2]) };
   return { start_date: null, end_date: null };
 }
 

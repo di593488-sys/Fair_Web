@@ -8,8 +8,8 @@ const { normalizeDate } = require('../validate');
 const NAMESPACE = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
 const SOURCE = 'SETEC';
 const BASE_URL = 'https://www.setec.or.kr';
-// SETEC uses a Korean government-style URL scheme
-const LIST_URL = 'https://www.setec.or.kr/front/exhibition/exhibitionList.do';
+// Confirmed working URL — the old /front/exhibition/exhibitionList.do returns 404
+const LIST_URL = 'https://www.setec.or.kr/front/schedule/list.do';
 
 const HTTP_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -30,56 +30,58 @@ async function crawl() {
     const $ = cheerio.load(html);
     const today = new Date().toISOString().slice(0, 10);
 
-    // SETEC government portal — commonly uses .board-list or .exhibit-list tables
-    const items = $(
-      '.exhibition-list li, .exhb-list li, .board-list tr, ' +
-      '.event-list li, ul.list > li, .list-wrap li'
-    );
-
-    if (items.length === 0) {
-      console.warn(`[${SOURCE}] No items found, trying table fallback…`);
-      $('table tbody tr').each((_, row) => {
-        const $row = $(row);
-        const cells = $row.find('td');
-        if (cells.length < 2) return;
-
-        const title = $row.find('a').first().text().trim() ||
-          cells.eq(1).text().trim();
-        if (!title) return;
-
-        const dateText = cells.eq(2).text().trim() || cells.eq(3).text().trim();
-        const { start_date, end_date } = parseDateRange(dateText);
-        if (!start_date || !end_date) return;
-
-        const href = $row.find('a').first().attr('href') || '';
-        const original_url = href.startsWith('http') ? href : href ? `${BASE_URL}${href}` : LIST_URL;
-        results.push(buildItem({ title, start_date, end_date, original_url, today }));
-      });
-      return results;
-    }
+    // Confirmed structure:
+    //   <ul>
+    //     <li>
+    //       <a href="#">
+    //         <img src="/file/viewImg.do?fIdx=3674" alt="TITLE">
+    //         <span>186</span>              ← sequence number (used for detail URL)
+    //         <strong>TITLE</strong>
+    //         <span>기간 : YYYY-MM-DD ~ YYYY-MM-DD</span>
+    //         <span>장소 : HALL, HALL</span>
+    //       </a>
+    //     </li>
+    //   </ul>
+    // Structure: ul > li > (img + strong(title) + p/span(기간) + p/span(장소))
+    // exhibit_list class not confirmed in static HTML — use broad li filter
+    const items = $('li').filter((_, el) => {
+      const $li = $(el);
+      return $li.find('strong').length > 0 && $li.find('img[src*="viewImg"]').length > 0;
+    });
 
     items.each((_, el) => {
       const $el = $(el);
 
-      const title =
-        $el.find('.title, .subject, h3, h4, strong, a').first().text().trim();
+      const title = $el.find('strong').first().text().trim();
       if (!title) return;
 
-      const dateText =
-        $el.find('.date, .period, .term, .schedule, time').first().text().trim() ||
-        $el.text().match(/\d{4}[.\-]\d{1,2}[.\-]\d{1,2}/)?.[0] || '';
+      // Confirmed structure:
+      //   li > a[onclick="fn_view('ID')"] > div.img + div.txt > strong + ul > li(기간) + li(장소)
+      let dateText = '';
+      let venue = 'SETEC';
 
-      const { start_date, end_date } = parseDateRange(dateText || $el.text());
+      // Date and venue are in nested <li> elements inside div.txt > ul
+      $el.find('li').each((_, node) => {
+        const t = $(node).text().trim();
+        if (t.includes('기간')) {
+          dateText = t.replace(/기간\s*[：:]\s*/, '').trim();
+        } else if (t.includes('장소')) {
+          venue = t.replace(/장소\s*[：:]\s*/, '').trim().split(',')[0].trim() || 'SETEC';
+        }
+      });
+
+      const { start_date, end_date } = parseDateRange(dateText);
       if (!start_date || !end_date) return;
 
-      const href = $el.find('a').first().attr('href') || '';
-      const original_url = href.startsWith('http') ? href : href ? `${BASE_URL}${href}` : LIST_URL;
+      // Extract seq ID from onclick="fn_view('2257'); return false;"
+      const onclickAttr = $el.find('a[onclick*="fn_view"]').first().attr('onclick') || '';
+      const idMatch = onclickAttr.match(/fn_view\s*\(\s*['"]?(\d+)/);
+      const original_url = idMatch
+        ? `${BASE_URL}/front/schedule/view.do?sIdx=${idMatch[1]}`
+        : LIST_URL;
 
-      const image_url = resolveImg($, $el, BASE_URL);
-      const venue = $el.find('.hall, .place, .location').first().text().trim() || 'SETEC';
-      const description = $el.find('.desc, .summary, p').first().text().trim() || '';
-
-      results.push(buildItem({ title, start_date, end_date, original_url, today, image_url, venue, description }));
+      const image_url = resolveImg($el, BASE_URL);
+      results.push(buildItem({ title, start_date, end_date, original_url, today, image_url, venue }));
     });
 
     console.log(`[${SOURCE}] Found ${results.length} items`);
@@ -107,23 +109,18 @@ function buildItem({ title, start_date, end_date, original_url, today, image_url
   };
 }
 
-function resolveImg($, $el, baseUrl) {
+function resolveImg($el, baseUrl) {
   const src = $el.find('img').first().attr('src') || $el.find('img').first().attr('data-src') || '';
   if (!src) return '';
   if (src.startsWith('http')) return src;
-  return `${baseUrl}${src}`;
+  return `${baseUrl}${src.startsWith('/') ? src : '/' + src}`;
 }
 
 function parseDateRange(text) {
   if (!text) return { start_date: null, end_date: null };
-  const rangeMatch = text.match(/(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
-  if (rangeMatch) {
-    return { start_date: normalizeDate(rangeMatch[1]), end_date: normalizeDate(rangeMatch[2]) };
-  }
-  const shortRange = text.match(/(\d{2}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{2}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
-  if (shortRange) {
-    return { start_date: normalizeDate(shortRange[1]), end_date: normalizeDate(shortRange[2]) };
-  }
+  // Format from site: "2026-04-11 ~ 2026-04-12"
+  const m = text.match(/(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
+  if (m) return { start_date: normalizeDate(m[1]), end_date: normalizeDate(m[2]) };
   return { start_date: null, end_date: null };
 }
 
