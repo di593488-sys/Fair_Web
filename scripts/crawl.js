@@ -101,6 +101,14 @@ async function main() {
   console.log(`  Final saved:        ${finalItems.length}  (cap: ${MAX_ITEMS})`);
   console.log(`───────────────────────────────────────────────`);
 
+  // Guard: never overwrite the file with an empty result.
+  // If all crawlers failed, keep the existing file so seed/previous data is preserved.
+  if (finalItems.length === 0) {
+    console.warn('\n⚠ No items collected — skipping file write to preserve existing data.');
+    console.log('=== Fair Web Crawl Complete (no update) ===');
+    return;
+  }
+
   // Write output
   const json = JSON.stringify(finalItems, null, 2);
   fs.writeFileSync(OUTPUT_PATH, json, 'utf-8');
