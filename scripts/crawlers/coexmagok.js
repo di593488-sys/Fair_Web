@@ -1,9 +1,9 @@
 'use strict';
 
-const axios = require('axios');
 const cheerio = require('cheerio');
 const { v5: uuidv5 } = require('uuid');
-const { normalizeDate } = require('../validate');
+const { getWithRetry } = require('../lib/http');
+const { parseDateRange } = require('../lib/parse');
 
 const NAMESPACE = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
 const SOURCE = 'COEX Magok';
@@ -13,9 +13,6 @@ const BASE_URL = 'https://coexmagok.co.kr';
 const LIST_URL = 'https://coexmagok.co.kr';
 
 const HTTP_HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-  'Accept-Language': 'ko-KR,ko;q=0.9',
-  'Accept': 'text/html,application/xhtml+xml,*/*;q=0.8',
   'Referer': 'https://coexmagok.co.kr/',
 };
 
@@ -24,10 +21,7 @@ async function crawl() {
   const results = [];
 
   try {
-    const { data: html } = await axios.get(LIST_URL, {
-      headers: HTTP_HEADERS,
-      timeout: 15000,
-    });
+    const { data: html } = await getWithRetry(LIST_URL, { headers: HTTP_HEADERS });
     const $ = cheerio.load(html);
     const today = new Date().toISOString().slice(0, 10);
 
@@ -92,14 +86,6 @@ function buildItem({ title, start_date, end_date, original_url, today, image_url
     original_url,
     created_at: today,
   };
-}
-
-function parseDateRange(text) {
-  if (!text) return { start_date: null, end_date: null };
-  // Format from site: "2026.04.11 - 2026.04.12"
-  const m = text.match(/(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})\s*[~\-–—]\s*(\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2})/);
-  if (m) return { start_date: normalizeDate(m[1]), end_date: normalizeDate(m[2]) };
-  return { start_date: null, end_date: null };
 }
 
 module.exports = { crawl };

@@ -2,12 +2,16 @@ name: Daily Exhibition Crawl
 
 on:
   schedule:
-    # Runs every day at 01:00 UTC (10:00 KST)
+    # 01:00 UTC = 10:00 KST
     - cron: '0 1 * * *'
+    # 13:00 UTC = 22:00 KST — second daily pass so same-day updates on the
+    # source sites show up without waiting a full 24h for the next run.
+    - cron: '0 13 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub Actions UI
 
 permissions:
   contents: write # Required to commit the updated JSON file
+  actions: write  # Required to dispatch the Deploy workflow (see note below)
 
 jobs:
   crawl:
@@ -26,20 +30,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package-lock.json
 
       - name: Install crawler dependencies
         working-directory: scripts
-        run: npm install
+        run: npm ci
 
       - name: Run crawlers
         run: node scripts/crawl.js
         env:
           NODE_ENV: production
+        # crawl.js exits non-zero when every source failed / returned 0 items,
+        # which fails this step (and the whole job) instead of silently
+        # committing nothing — see scripts/crawl.js for the guard.
 
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet public/data/exhibitions.json; then
+          if git diff --quiet public/data/exhibitions.json public/data/crawl-meta.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -50,6 +59,23 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/exhibitions.json
+          git add public/data/exhibitions.json public/data/crawl-meta.json
           git commit -m "chore(data): update exhibitions.json [$(date -u +%Y-%m-%d)]"
           git push
+
+      # IMPORTANT: commits pushed with the default GITHUB_TOKEN do NOT trigger
+      # other workflows' `on: push` events (this is a deliberate GitHub Actions
+      # anti-recursion rule). Without this step, deploy.yml would never run
+      # again after the first manual push, and GitHub Pages would keep serving
+      # whatever was last built — this is exactly what caused the live site to
+      # stay frozen on old data for months despite the crawler committing daily.
+      # An explicit workflow_dispatch call is a direct API action, not a
+      # cascading event, so it IS allowed to fire with GITHUB_TOKEN.
+      - name: Trigger Pages deployment
+        # success() must be explicit here: a custom `if` condition replaces
+        # GitHub Actions' implicit success()-only default, so without this
+        # the deploy would still fire even if the commit/push step above failed.
+        if: steps.diff.outputs.changed == 'true' && success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref "${{ github.ref_name }}"
