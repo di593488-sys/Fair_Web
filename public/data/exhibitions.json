@@ -42,6 +42,20 @@
     "created_at": "2026-07-16"
   },
   {
+    "id": "2ea2aa95-3892-5f72-b597-52b80e336448",
+    "title": "2026 여성발명왕 EXPO",
+    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/06/260716_여성발명협회_코엑스-여성발명왕EXPO_온라인-배너_610x610px.jpg",
+    "description": "",
+    "venue": "The Platz",
+    "location": "서울시 강남구 삼성동",
+    "start_date": "2026-07-16",
+    "end_date": "2026-07-18",
+    "fee": null,
+    "source": "COEX",
+    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%97%ac%ec%84%b1%eb%b0%9c%eb%aa%85%ec%99%95-expo/?var_page=1&search_start_date=2026.07.16&search_end_date=2026.08.16&list_type=LIST",
+    "created_at": "2026-07-16"
+  },
+  {
     "id": "7adde50f-788f-5534-b133-858cea593139",
     "title": "아시아문화중심도시 문화산업투자진흥지구 기업유치 설명회",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/KakaoTalk_20260702_172004621_01-3.png",
@@ -67,20 +81,6 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%eb%b2%a0%ec%a7%80%eb%85%b8%eb%af%b9%ec%8a%a4-%eb%b9%84%ea%b1%b4%ed%8e%98%ec%96%b4-%ec%9d%b8-%ec%84%9c%ec%9a%b8/?var_page=1&search_start_date=2026.07.16&search_end_date=2026.08.16&list_type=LIST",
-    "created_at": "2026-07-16"
-  },
-  {
-    "id": "2ea2aa95-3892-5f72-b597-52b80e336448",
-    "title": "2026 여성발명왕 EXPO",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/06/260716_여성발명협회_코엑스-여성발명왕EXPO_온라인-배너_610x610px.jpg",
-    "description": "",
-    "venue": "The Platz",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-07-16",
-    "end_date": "2026-07-18",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%97%ac%ec%84%b1%eb%b0%9c%eb%aa%85%ec%99%95-expo/?var_page=1&search_start_date=2026.07.16&search_end_date=2026.08.16&list_type=LIST",
     "created_at": "2026-07-16"
   },
   {
@@ -266,20 +266,6 @@
     "created_at": "2026-07-16"
   },
   {
-    "id": "6d115630-71cf-5757-90ce-1480b82de035",
-    "title": "K-Display 2026 한국디스플레이산업전시회",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/코엑스-홈페이지-배너_K-display.png",
-    "description": "",
-    "venue": "Hall C",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-07-22",
-    "end_date": "2026-07-24",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/k-display-2026-%ed%95%9c%ea%b5%ad%eb%94%94%ec%8a%a4%ed%94%8c%eb%a0%88%ec%9d%b4%ec%82%b0%ec%97%85%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=1&search_start_date=2026.07.16&search_end_date=2026.08.16&list_type=LIST",
-    "created_at": "2026-07-16"
-  },
-  {
     "id": "41223bfa-87e6-511b-b435-92f173710300",
     "title": "제2회 대한민국 대표 중소기업 박람회",
     "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3656",
@@ -347,6 +333,20 @@
     "fee": null,
     "source": "SETEC",
     "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2300",
+    "created_at": "2026-07-16"
+  },
+  {
+    "id": "4bb71bf8-ef91-5bc1-8cb6-561557cd7455",
+    "title": "라이프웨이브코리아 원데이 세미나",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-07-25",
+    "end_date": "2026-07-25",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16467",
     "created_at": "2026-07-16"
   },
   {
@@ -434,7 +434,7 @@
     "created_at": "2026-07-16"
   },
   {
-    "id": "2aa95110-f43c-5faa-8c2d-021e42f19427",
+    "id": "f746b59c-2bab-5d0b-a169-152e5722251f",
     "title": "2026년 AI·디지털 기반 교육혁신 콘퍼런스",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg01.jpg",
     "description": "",
@@ -444,7 +444,7 @@
     "end_date": "2026-08-07",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16234",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16234",
     "created_at": "2026-07-16"
   },
   {
@@ -630,7 +630,7 @@
     "created_at": "2026-07-16"
   },
   {
-    "id": "f00f752b-424d-5806-bfc6-6791c67d7669",
+    "id": "1d6be0d7-3402-507c-be55-96dba6963e4a",
     "title": "렙타일페어",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg01.jpg",
     "description": "",
@@ -640,7 +640,7 @@
     "end_date": "2026-08-23",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16301",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=3&&event_seq=16301",
     "created_at": "2026-07-16"
   },
   {
