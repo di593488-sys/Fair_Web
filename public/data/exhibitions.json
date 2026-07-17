@@ -14,20 +14,6 @@
     "created_at": "2026-07-17"
   },
   {
-    "id": "4a590725-396e-5775-93aa-36c32f3e692f",
-    "title": "2026 베지노믹스-비건페어 인 서울",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/12/웹배너-2026-베지노믹스-비건페어-인-서울_국문-2-윤정민.jpg",
-    "description": "",
-    "venue": "Hall D",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-07-16",
-    "end_date": "2026-07-18",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%eb%b2%a0%ec%a7%80%eb%85%b8%eb%af%b9%ec%8a%a4-%eb%b9%84%ea%b1%b4%ed%8e%98%ec%96%b4-%ec%9d%b8-%ec%84%9c%ec%9a%b8/?var_page=1&search_start_date=2026.07.17&search_end_date=2026.08.17&list_type=LIST",
-    "created_at": "2026-07-17"
-  },
-  {
     "id": "3ffd7e0f-93f7-591d-8a1a-237fca2bea31",
     "title": "2026 여성발명왕 EXPO",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/06/260716_여성발명협회_코엑스-여성발명왕EXPO_온라인-배너_610x610px.jpg",
@@ -39,6 +25,20 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%97%ac%ec%84%b1%eb%b0%9c%eb%aa%85%ec%99%95-expo/?var_page=1&search_start_date=2026.07.17&search_end_date=2026.08.17&list_type=LIST",
+    "created_at": "2026-07-17"
+  },
+  {
+    "id": "4a590725-396e-5775-93aa-36c32f3e692f",
+    "title": "2026 베지노믹스-비건페어 인 서울",
+    "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/12/웹배너-2026-베지노믹스-비건페어-인-서울_국문-2-윤정민.jpg",
+    "description": "",
+    "venue": "Hall D",
+    "location": "서울시 강남구 삼성동",
+    "start_date": "2026-07-16",
+    "end_date": "2026-07-18",
+    "fee": null,
+    "source": "COEX",
+    "original_url": "https://www.coex.co.kr/exhibitions/2026-%eb%b2%a0%ec%a7%80%eb%85%b8%eb%af%b9%ec%8a%a4-%eb%b9%84%ea%b1%b4%ed%8e%98%ec%96%b4-%ec%9d%b8-%ec%84%9c%ec%9a%b8/?var_page=1&search_start_date=2026.07.17&search_end_date=2026.08.17&list_type=LIST",
     "created_at": "2026-07-17"
   },
   {
@@ -221,20 +221,6 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%95%84%ec%82%b0-%ec%9c%a0%ec%8a%a4%ed%94%84%eb%9f%ac%eb%84%88-%eb%8d%b0%eb%aa%a8%eb%8d%b0%ec%9d%b4-%eb%ac%b4%ed%95%9cinfinite/?var_page=1&search_start_date=2026.07.17&search_end_date=2026.08.17&list_type=LIST",
-    "created_at": "2026-07-17"
-  },
-  {
-    "id": "5265a7ea-0695-5126-881d-5609d84986ef",
-    "title": "K-Display 2026 한국디스플레이산업전시회",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/코엑스-홈페이지-배너_K-display.png",
-    "description": "",
-    "venue": "Hall C",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-07-22",
-    "end_date": "2026-07-24",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/k-display-2026-%ed%95%9c%ea%b5%ad%eb%94%94%ec%8a%a4%ed%94%8c%eb%a0%88%ec%9d%b4%ec%82%b0%ec%97%85%ec%a0%84%ec%8b%9c%ed%9a%8c/?var_page=1&search_start_date=2026.07.17&search_end_date=2026.08.17&list_type=LIST",
     "created_at": "2026-07-17"
   },
   {
@@ -697,6 +683,20 @@
     "fee": null,
     "source": "SETEC",
     "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2291",
+    "created_at": "2026-07-17"
+  },
+  {
+    "id": "845608fa-cb2c-5b08-9d4d-a9ba0f19b3c9",
+    "title": "2026 항공산업 커리어 엑스포",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-09-02",
+    "end_date": "2026-09-03",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=3&&event_seq=16302",
     "created_at": "2026-07-17"
   }
 ]
