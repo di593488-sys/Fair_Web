@@ -1,15 +1,15 @@
 {
-  "last_attempt_at": "2026-07-21T00:12:31+09:00",
-  "last_success_at": "2026-07-21T00:12:31+09:00",
-  "total_count": 47,
+  "last_attempt_at": "2026-07-21T13:14:00+09:00",
+  "last_success_at": "2026-07-21T13:14:00+09:00",
+  "total_count": 50,
   "successful_sources": [
+    "KINTEX",
     "COEX",
     "SETEC",
+    "BEXCO",
     "COEX Magok"
   ],
   "failed_sources": [
-    "KINTEX (0 items)",
-    "BEXCO (0 items)",
     "Suwon Messe (0 items)"
   ]
 }
