@@ -84,6 +84,20 @@
     "created_at": "2026-07-24"
   },
   {
+    "id": "89786b70-6730-574a-b8af-b5eba63cc0d8",
+    "title": "렙타일페어",
+    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469297&fileseq=1",
+    "description": "",
+    "venue": "전시홀 6A",
+    "location": "경기도 고양시 일산서구",
+    "start_date": "2026-07-25",
+    "end_date": "2026-07-26",
+    "fee": null,
+    "source": "KINTEX",
+    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26071701",
+    "created_at": "2026-07-24"
+  },
+  {
     "id": "7417f1b6-8d21-5720-af4a-cdda5a998078",
     "title": "제98회 국제친선을위한 세계아동 미술대회 입상작품 전시회",
     "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469289&fileseq=1",
@@ -641,20 +655,6 @@
     "fee": null,
     "source": "COEX Magok",
     "original_url": "https://coexmagok.co.kr/exhibitions/k-%ec%9d%bc%eb%9f%ac%ec%8a%a4%ed%8a%b8%eb%a0%88%ec%9d%b4%ec%85%98%ed%8e%98%ec%96%b4-%eb%a7%88%ea%b3%a1-2026/",
-    "created_at": "2026-07-24"
-  },
-  {
-    "id": "4305a482-800c-50dc-b431-8634c245b71e",
-    "title": "2026 생활낚시박람회",
-    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469082&fileseq=1",
-    "description": "",
-    "venue": "전시홀 10B",
-    "location": "경기도 고양시 일산서구",
-    "start_date": "2026-08-21",
-    "end_date": "2026-08-23",
-    "fee": null,
-    "source": "KINTEX",
-    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26031709",
     "created_at": "2026-07-24"
   },
   {
