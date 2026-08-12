@@ -518,20 +518,6 @@
     "created_at": "2026-08-12"
   },
   {
-    "id": "782cfb0c-3d75-53d9-827c-4898ab42608a",
-    "title": "동국대학교 서울국제명상엑스포",
-    "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3711",
-    "description": "",
-    "venue": "제2전시실",
-    "location": "서울시 강남구 도곡동",
-    "start_date": "2026-08-22",
-    "end_date": "2026-08-23",
-    "fee": null,
-    "source": "SETEC",
-    "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2304",
-    "created_at": "2026-08-12"
-  },
-  {
     "id": "eff0fee2-c989-5c21-86d7-e3b0f14ed9ed",
     "title": "웨딩&혼수 박람회",
     "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3734",
@@ -543,6 +529,20 @@
     "fee": null,
     "source": "SETEC",
     "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2302",
+    "created_at": "2026-08-12"
+  },
+  {
+    "id": "782cfb0c-3d75-53d9-827c-4898ab42608a",
+    "title": "동국대학교 서울국제명상엑스포",
+    "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3711",
+    "description": "",
+    "venue": "제2전시실",
+    "location": "서울시 강남구 도곡동",
+    "start_date": "2026-08-22",
+    "end_date": "2026-08-23",
+    "fee": null,
+    "source": "SETEC",
+    "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2304",
     "created_at": "2026-08-12"
   },
   {
