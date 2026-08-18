@@ -602,6 +602,34 @@
     "created_at": "2026-08-18"
   },
   {
+    "id": "85926409-0dd3-5f72-8095-ea6f37c4b199",
+    "title": "2026년 제17기 사회리더 대학생 멘토링 리더십 콘서트",
+    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469322&fileseq=1",
+    "description": "",
+    "venue": "전시홀 6",
+    "location": "경기도 고양시 일산서구",
+    "start_date": "2026-08-29",
+    "end_date": "2026-08-29",
+    "fee": null,
+    "source": "KINTEX",
+    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26080602",
+    "created_at": "2026-08-18"
+  },
+  {
+    "id": "2fd88a88-66fa-5d0f-974d-754c590fcdb8",
+    "title": "일러스타 페스 13",
+    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469324&fileseq=1",
+    "description": "",
+    "venue": "전시홀 4",
+    "location": "경기도 고양시 일산서구",
+    "start_date": "2026-08-29",
+    "end_date": "2026-08-30",
+    "fee": null,
+    "source": "KINTEX",
+    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26071302",
+    "created_at": "2026-08-18"
+  },
+  {
     "id": "cda789a6-a1fd-5cea-9421-d267da7c64a9",
     "title": "제19회 폐기물·자원순환산업전(RETECH) & 차세대 분체·유체기술전(A-POWDER TECH)",
     "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469256&fileseq=2",
@@ -630,20 +658,6 @@
     "created_at": "2026-08-18"
   },
   {
-    "id": "a482a792-8f2c-58ff-9cad-759c15667e2a",
-    "title": "궁디팡팡 캣페스타 ILSAN",
-    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469319&fileseq=1",
-    "description": "",
-    "venue": "전시홀 10",
-    "location": "경기도 고양시 일산서구",
-    "start_date": "2026-09-04",
-    "end_date": "2026-09-06",
-    "fee": null,
-    "source": "KINTEX",
-    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26042201",
-    "created_at": "2026-08-18"
-  },
-  {
     "id": "4b848ff2-526a-5455-8535-b79443279d0d",
     "title": "동래 반도유보라 입주박람회",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
@@ -655,20 +669,6 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=3&&event_seq=16475",
-    "created_at": "2026-08-18"
-  },
-  {
-    "id": "8379ebfe-5d77-5431-aeb1-01d428ae6c97",
-    "title": "SPYAIR JUST LIKE THIS 2026 in KOREA",
-    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469242&fileseq=1",
-    "description": "",
-    "venue": "옥외",
-    "location": "경기도 고양시 일산서구",
-    "start_date": "2026-09-05",
-    "end_date": "2026-09-05",
-    "fee": null,
-    "source": "KINTEX",
-    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26051916",
     "created_at": "2026-08-18"
   },
   {
