@@ -56,20 +56,6 @@
     "created_at": "2026-08-22"
   },
   {
-    "id": "86204146-7aac-5e0c-b49a-68a7339f354c",
-    "title": "Coex On Stage ✖ ODD YOUTH",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/스테이지-홈페이지_오드유스.jpg",
-    "description": "",
-    "venue": "밀레니엄 광장",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-08-22",
-    "end_date": "2026-08-22",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/coex-on-stage-%e2%9c%96-odd-youth/?var_page=1&search_start_date=2026.08.22&search_end_date=2026.09.22&list_type=LIST",
-    "created_at": "2026-08-22"
-  },
-  {
     "id": "8c6d9cc6-3ed4-50f5-9e25-6729091080e4",
     "title": "제427회 웨덱스 웨딩박람회",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/2026-웨딩박람회_엠블럼_1.jpg",
@@ -123,6 +109,20 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%9d%bc%eb%b3%b8%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.08.22&search_end_date=2026.09.22&list_type=LIST",
+    "created_at": "2026-08-22"
+  },
+  {
+    "id": "0d166f0d-77e4-58db-b99d-3bcf42dcff70",
+    "title": "Coex On Stage ✖ ODD YOUTH",
+    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/08/스테이지-홈페이지_오드유스-1.jpg",
+    "description": "",
+    "venue": "밀레니엄 광장",
+    "location": "서울시 강남구 삼성동",
+    "start_date": "2026-08-23",
+    "end_date": "2026-08-23",
+    "fee": null,
+    "source": "COEX",
+    "original_url": "https://www.coex.co.kr/exhibitions/coex-on-stage-%e2%9c%96-odd-youth/?var_page=1&search_start_date=2026.08.22&search_end_date=2026.09.22&list_type=LIST",
     "created_at": "2026-08-22"
   },
   {
