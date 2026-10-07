@@ -11,7 +11,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%8a%a4%eb%a7%88%ed%8a%b8%eb%9d%bc%ec%9d%b4%ed%94%84%ec%9c%84%ed%81%acslw/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "ef3beecc-9132-5856-b0e1-80295f2e98d7",
@@ -25,7 +25,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5-%ed%8e%98%ec%8a%a4%ed%83%80-2026/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "27d72713-1817-5b61-ace1-bed0951cf535",
@@ -39,7 +39,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16733",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "796a3dd2-b8d7-56d0-935c-27fbac034517",
@@ -53,7 +53,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%eb%b9%84%ec%96%b4%ed%8e%98%ec%8a%a4%ed%8a%b8-%ec%bd%94%ec%97%91%ec%8a%a4-2026/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "c5bcc3a3-e355-5026-a25d-46f778731d5b",
@@ -67,7 +67,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16720",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "12fa37d3-304e-5e5c-8bc3-d332ce4fea1f",
@@ -81,7 +81,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16721",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "5dfbbb15-3d57-5c4c-9627-648835928db8",
@@ -95,7 +95,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16722",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "b0c8514e-11d9-5eb2-8e5c-5dc2de5c7f3e",
@@ -109,7 +109,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16723",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "4d040ccf-ea0f-5b67-b0f6-8d727d2511f8",
@@ -123,7 +123,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16734",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "55a219a9-f931-5de4-8378-5a88ef2e665b",
@@ -137,7 +137,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16735",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "91ea0be7-76c2-5760-8d32-53185652f541",
@@ -151,7 +151,21 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26033004",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
+  },
+  {
+    "id": "30cc1a91-4790-5094-a20e-2bd398c6ef18",
+    "title": "2026 서울가구쇼",
+    "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3745",
+    "description": "",
+    "venue": "제1전시실",
+    "location": "서울시 강남구 도곡동",
+    "start_date": "2026-10-08",
+    "end_date": "2026-10-11",
+    "fee": null,
+    "source": "SETEC",
+    "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2321",
+    "created_at": "2026-10-07"
   },
   {
     "id": "cdb0b50a-6c6c-5301-9fbb-220ab0a5c2b6",
@@ -165,7 +179,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16724",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "282917a9-7297-5d62-95a1-0253649173de",
@@ -179,7 +193,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16725",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "c2aa3b35-a41e-5cf8-af15-aac15a03f0ae",
@@ -193,7 +207,7 @@
     "fee": null,
     "source": "COEX Magok",
     "original_url": "https://coexmagok.co.kr/exhibitions/%ec%a0%9c13%ed%9a%8c-%eb%8f%99%ec%95%84-%ea%b1%b4%ec%b6%95%c2%b7%ec%9d%b8%ed%85%8c%eb%a6%ac%ec%96%b4-%eb%b0%95%eb%9e%8c%ed%9a%8c/",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "a95aa7b8-a58b-542c-a64e-a91b3e124aee",
@@ -207,7 +221,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26032304",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "c58326b0-3518-5b1c-a99d-d21373158554",
@@ -221,7 +235,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16716",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "8c206b67-8775-588c-be7d-5fc40961537a",
@@ -235,7 +249,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16717",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "40953e5c-6a5e-54fa-839c-2bb0028d7d55",
@@ -249,7 +263,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16726",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "e1461431-d9a7-5299-8d25-99b3f751d712",
@@ -263,7 +277,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16727",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "5fd715bc-2d43-53be-bb6e-3ba7c2ce59bf",
@@ -277,7 +291,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16728",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "56bbe42c-73fe-5c2c-bcdb-53970dfb9a9d",
@@ -291,7 +305,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16737",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "4751bbe3-584c-5f3a-bf14-65c01eb9045d",
@@ -305,7 +319,21 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16738",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
+  },
+  {
+    "id": "b455961e-2164-5bd6-9cdd-5a0c449af960",
+    "title": "일러스타 페스 14",
+    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469373&fileseq=3",
+    "description": "",
+    "venue": "전시홀 4",
+    "location": "경기도 고양시 일산서구",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-11",
+    "fee": null,
+    "source": "KINTEX",
+    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26100104",
+    "created_at": "2026-10-07"
   },
   {
     "id": "4ccaba57-6074-554d-8ad4-c14cacba5129",
@@ -319,7 +347,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ed%95%9c%ec%9d%bc%ec%b6%95%ec%a0%9c%ed%95%9c%eb%a7%88%eb%8b%b9-2026-in-seoul/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "b8a26547-92a4-57ea-bc64-324c7725b309",
@@ -333,7 +361,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%b8%ea%b3%84%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "86fb77d5-b65c-5132-a7f1-29c189d062c3",
@@ -347,7 +375,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%98%81%ea%b5%ad%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-2/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "e5ef5e26-5ab3-5a4a-b045-1760a005d585",
@@ -361,7 +389,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c432%ed%9a%8c-%ec%9b%a8%eb%8d%b1%ec%8a%a4-%ec%9b%a8%eb%94%a9%eb%b0%95%eb%9e%8c%ed%9a%8c/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "4263c848-99e6-5065-8444-0894296770a4",
@@ -375,7 +403,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16729",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "997d695c-ac41-50a7-9d75-b55ac60695ae",
@@ -389,7 +417,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16474",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "1d5f942a-ab83-5e54-adc1-0c85245efbd2",
@@ -403,7 +431,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16730",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "42831e87-7936-5faa-9c49-2e62f0d37988",
@@ -417,7 +445,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16731",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "1f192444-7a60-5071-9678-76c4a9170f4b",
@@ -431,7 +459,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16736",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "389ccb02-2785-5e91-ba29-ca7eee8f6853",
@@ -445,7 +473,7 @@
     "fee": null,
     "source": "COEX Magok",
     "original_url": "https://coexmagok.co.kr/exhibitions/%ec%95%84%ec%9d%b4%ed%8b%b0%ec%9b%a8%eb%94%a9%ed%98%bc%ec%88%98%eb%b0%95%eb%9e%8c%ed%9a%8c-2/",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "c7660119-f40f-5832-89be-0a871b937b4b",
@@ -459,7 +487,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16732",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "6cd52205-c05f-5321-a133-df2489d4119d",
@@ -473,7 +501,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/impact-2026-rx-revenue-transformation/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "0790b4be-6dcb-52ec-81a7-59291f0c04b3",
@@ -487,7 +515,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/kes-2026%ed%95%9c%ea%b5%ad%ec%a0%84%ec%9e%90%ec%a0%84/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "1ee6089f-f357-5d21-ac4a-86ce8ca6f7d6",
@@ -501,7 +529,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26062208",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "193262d1-8198-5494-9aaa-28110d3db9e7",
@@ -515,7 +543,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26042903",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "136e57f8-2c70-5390-8528-53102a26cdc6",
@@ -529,7 +557,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26042904",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "4a811e66-458e-579d-8122-73c36399551f",
@@ -543,7 +571,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c-28%ed%9a%8c-%eb%b0%98%eb%8f%84%ec%b2%b4%eb%8c%80%ec%a0%84/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "f7f6f95c-9613-58bd-92ab-1e740bc9beb6",
@@ -557,7 +585,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%9c%eb%b9%84%eb%87%a8%ec%9d%98%ed%95%99%ed%9a%8c-%ec%a0%9c78%ec%b0%a8-%ec%a0%95%ea%b8%b0%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "78d031e6-f255-556b-961f-a9b110ccfdd2",
@@ -571,7 +599,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26030306",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "30825701-059a-529d-ab59-ffd018767986",
@@ -585,7 +613,7 @@
     "fee": null,
     "source": "SETEC",
     "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2317",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "134a0ae8-81a2-5be8-bfd9-3fc93c8dc4c9",
@@ -599,7 +627,7 @@
     "fee": null,
     "source": "COEX Magok",
     "original_url": "https://coexmagok.co.kr/exhibitions/2026-%eb%8c%80%ed%95%9c%eb%8b%b9%eb%87%a8%eb%b3%91%ed%95%99%ed%9a%8c-%ea%b5%ad%ec%a0%9c%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c/",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "aba64536-358e-5d89-a59a-a5fe8e2757cb",
@@ -613,7 +641,7 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/%ec%9c%a0%ed%95%99%eb%84%a4%ed%8a%b8-%ec%9c%a0%ed%95%99%eb%b0%95%eb%9e%8c%ed%9a%8c-7/?var_page=1&search_start_date=2026.10.07&search_end_date=2026.11.07&list_type=LIST",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "78bb2d1a-188a-59d1-bac5-754dc535b32b",
@@ -627,7 +655,7 @@
     "fee": null,
     "source": "KINTEX",
     "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26010503",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "1d512fa8-6e65-5033-8910-0fd94843cfc4",
@@ -641,7 +669,7 @@
     "fee": null,
     "source": "BEXCO",
     "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=3&&event_seq=16649",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
     "id": "f57f731f-8be0-5ba4-8c30-84e9d5297fbe",
@@ -655,48 +683,20 @@
     "fee": null,
     "source": "COEX Magok",
     "original_url": "https://coexmagok.co.kr/exhibitions/%ec%a0%9c49%ec%b0%a8-%ea%b5%ad%ec%a0%9c%eb%b3%91%ec%9b%90%ec%97%b0%eb%a7%b9-%ec%84%b8%ea%b3%84%eb%b3%91%ec%9b%90%eb%8c%80%ed%9a%8c/",
-    "created_at": "2026-10-06"
+    "created_at": "2026-10-07"
   },
   {
-    "id": "d11a400d-9488-5118-bd28-b4294480f608",
-    "title": "2026 아시아 기계 & 제조 산업전",
-    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469285&fileseq=1",
+    "id": "94aeacbd-9009-5691-a850-02492c94b5ab",
+    "title": "2026 한국국제냉난방공조전",
+    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469374&fileseq=1",
     "description": "",
-    "venue": "전시홀 1",
+    "venue": "전시홀 4",
     "location": "경기도 고양시 일산서구",
-    "start_date": "2026-10-21",
+    "start_date": "2026-10-20",
     "end_date": "2026-10-23",
     "fee": null,
     "source": "KINTEX",
-    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26062905",
-    "created_at": "2026-10-06"
-  },
-  {
-    "id": "ac3b120f-0d00-56b3-bf5e-ab2c5f39e3da",
-    "title": "국제 모빌리티 산업전",
-    "image_url": "https://www.kintex.com/imageView.do?atchmnflNo=469283&fileseq=1",
-    "description": "",
-    "venue": "전시홀 3",
-    "location": "경기도 고양시 일산서구",
-    "start_date": "2026-10-21",
-    "end_date": "2026-10-23",
-    "fee": null,
-    "source": "KINTEX",
-    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26070208",
-    "created_at": "2026-10-06"
-  },
-  {
-    "id": "c04c5812-0362-5a3c-b02b-7e9818c50eb1",
-    "title": "서울네일엑스포",
-    "image_url": "https://www.setec.or.kr/file/viewImg.do?fIdx=3731",
-    "description": "",
-    "venue": "제1전시실",
-    "location": "서울시 강남구 도곡동",
-    "start_date": "2026-10-23",
-    "end_date": "2026-10-25",
-    "fee": null,
-    "source": "SETEC",
-    "original_url": "https://www.setec.or.kr/front/schedule/view.do?sIdx=2318",
-    "created_at": "2026-10-06"
+    "original_url": "https://www.kintex.com/web/ko/event/view.do?seq=26062503",
+    "created_at": "2026-10-07"
   }
 ]
