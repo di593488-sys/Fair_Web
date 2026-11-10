@@ -1,75 +1,5 @@
 [
   {
-    "id": "678c03c8-3506-54da-b809-1a8a44ea661e",
-    "title": "2026 시큐리티 트렌드 세미나",
-    "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverEvent.png",
-    "description": "",
-    "venue": "컨퍼런스룸(남) 3F",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%8b%9c%ed%81%90%eb%a6%ac%ed%8b%b0-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ec%84%b8%eb%af%b8%eb%82%98/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
-    "created_at": "2026-11-10"
-  },
-  {
-    "id": "5c27d502-277a-5904-895f-ca716986485b",
-    "title": "2026년 제12회 부산시니어클럽 어르신일자리 증진대회",
-    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
-    "description": "",
-    "venue": "BEXCO",
-    "location": "부산시 해운대구 APEC로",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "fee": null,
-    "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16601",
-    "created_at": "2026-11-10"
-  },
-  {
-    "id": "60135728-27e2-5215-9db4-87af61547022",
-    "title": "2026 해운대구 일자리박람회",
-    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
-    "description": "",
-    "venue": "BEXCO",
-    "location": "부산시 해운대구 APEC로",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "fee": null,
-    "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16875",
-    "created_at": "2026-11-10"
-  },
-  {
-    "id": "5c7e901c-0a01-5e90-a3ee-69705af16e0f",
-    "title": "2026 초등진로진학설명회",
-    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
-    "description": "",
-    "venue": "BEXCO",
-    "location": "부산시 해운대구 APEC로",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "fee": null,
-    "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16876",
-    "created_at": "2026-11-10"
-  },
-  {
-    "id": "f66eb60e-0c32-508e-84f3-8bb8129fbba0",
-    "title": "부산미래과학자상 발표 심사",
-    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
-    "description": "",
-    "venue": "BEXCO",
-    "location": "부산시 해운대구 APEC로",
-    "start_date": "2026-11-10",
-    "end_date": "2026-11-10",
-    "fee": null,
-    "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16877",
-    "created_at": "2026-11-10"
-  },
-  {
     "id": "c87ac176-59e9-54f0-a7bd-6b8041406f4c",
     "title": "2026년 한국주택금융공사 신입직원 채용 면접전형",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
@@ -84,7 +14,63 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "0c241ccd-9e8f-50b5-b7fa-70ca82cd75a4",
+    "id": "098bf9c1-99b5-5508-b084-962b95446125",
+    "title": "2026년 제12회 부산시니어클럽 어르신일자리 증진대회",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=4&&event_seq=16601",
+    "created_at": "2026-11-10"
+  },
+  {
+    "id": "fcd08cbd-17fd-587f-a781-4d3d5a82c3fa",
+    "title": "2026 해운대구 일자리박람회",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=4&&event_seq=16875",
+    "created_at": "2026-11-10"
+  },
+  {
+    "id": "4bf4de2f-b7c8-515a-98de-ea71ebdbd05d",
+    "title": "2026 초등진로진학설명회",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=4&&event_seq=16876",
+    "created_at": "2026-11-10"
+  },
+  {
+    "id": "71484b68-5e08-50b2-8130-f32c18960160",
+    "title": "부산미래과학자상 발표 심사",
+    "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
+    "description": "",
+    "venue": "BEXCO",
+    "location": "부산시 해운대구 APEC로",
+    "start_date": "2026-11-10",
+    "end_date": "2026-11-10",
+    "fee": null,
+    "source": "BEXCO",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=4&&event_seq=16877",
+    "created_at": "2026-11-10"
+  },
+  {
+    "id": "ebb32b78-ae1c-549c-b620-b07f13d20c1f",
     "title": "세바여 X 최민준 무료 강연",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg03.jpg",
     "description": "",
@@ -94,7 +80,7 @@
     "end_date": "2026-11-10",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16887",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=4&&event_seq=16887",
     "created_at": "2026-11-10"
   },
   {
@@ -112,7 +98,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "1485dbc7-4d87-5ded-8292-7f9e604519f7",
+    "id": "0a13c969-2dc8-5adc-8305-6947f7acbf3b",
     "title": "2026 글로벌 기술도입 세미나 : 달라진 환경, 새로운 기술도입 전략",
     "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
     "description": "",
@@ -122,11 +108,11 @@
     "end_date": "2026-11-11",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ea%b8%80%eb%a1%9c%eb%b2%8c-%ea%b8%b0%ec%88%a0%eb%8f%84%ec%9e%85-%ec%84%b8%eb%af%b8%eb%82%98-%eb%8b%ac%eb%9d%bc%ec%a7%84-%ed%99%98%ea%b2%bd-%ec%83%88%eb%a1%9c%ec%9a%b4-%ea%b8%b0%ec%88%a0/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ea%b8%80%eb%a1%9c%eb%b2%8c-%ea%b8%b0%ec%88%a0%eb%8f%84%ec%9e%85-%ec%84%b8%eb%af%b8%eb%82%98-%eb%8b%ac%eb%9d%bc%ec%a7%84-%ed%99%98%ea%b2%bd-%ec%83%88%eb%a1%9c%ec%9a%b4-%ea%b8%b0%ec%88%a0/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
-    "id": "292cd74d-5ca0-5411-a7bf-b24a7f72cfdc",
+    "id": "cfa7a24e-947c-5a32-8d6d-f3e9f907815a",
     "title": "제25회 서울카페쇼",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/서울카페쇼메인포스터_SNSver.png",
     "description": "",
@@ -136,11 +122,11 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c25%ed%9a%8c-%ec%84%9c%ec%9a%b8%ec%b9%b4%ed%8e%98%ec%87%bc/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c25%ed%9a%8c-%ec%84%9c%ec%9a%b8%ec%b9%b4%ed%8e%98%ec%87%bc/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
-    "id": "11761f00-c449-5b29-bc98-6b1f55f8b72b",
+    "id": "ede67e28-a5cf-5e1a-919d-7ae70e502999",
     "title": "제15회 월드커피포럼 2026",
     "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
     "description": "",
@@ -150,7 +136,7 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c15%ed%9a%8c-%ec%9b%94%eb%93%9c%ec%bb%a4%ed%94%bc%ed%8f%ac%eb%9f%bc-2026/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c15%ed%9a%8c-%ec%9b%94%eb%93%9c%ec%bb%a4%ed%94%bc%ed%8f%ac%eb%9f%bc-2026/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -210,7 +196,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "7ae6a69a-3347-551b-aa83-e56f69ae24ed",
+    "id": "471c1c01-97b9-5d4e-a0c2-0c1ba9fab796",
     "title": "AI 콘텐츠 페스티벌 2026",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/10/AI-콘텐츠-페스티벌-2026_-배너-이미지.jpg",
     "description": "",
@@ -220,7 +206,7 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/ai-%ec%bd%98%ed%85%90%ec%b8%a0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c-2026/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/ai-%ec%bd%98%ed%85%90%ec%b8%a0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c-2026/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -280,7 +266,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "3b3856d2-117d-58b5-9028-34f47c7b7fe1",
+    "id": "b0ee7ab2-cbc0-5159-a906-96cbd7f1b1e6",
     "title": "2026 희귀유전질환 심포지엄",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
     "description": "",
@@ -290,7 +276,7 @@
     "end_date": "2026-11-13",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16889",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16889",
     "created_at": "2026-11-10"
   },
   {
@@ -308,7 +294,21 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "28d4b186-304e-5843-92c9-cc8586af57dc",
+    "id": "d83f012b-049d-5a62-b82a-6b6d5c7c47d9",
+    "title": "LH 3기 씬도시 영화제",
+    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/11/그림1.jpg",
+    "description": "",
+    "venue": "코엑스광장(동문 앞)",
+    "location": "서울시 강남구 삼성동",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-14",
+    "fee": null,
+    "source": "COEX",
+    "original_url": "https://www.coex.co.kr/exhibitions/lh-3%ea%b8%b0-%ec%94%ac%eb%8f%84%ec%8b%9c-%ec%98%81%ed%99%94%ec%a0%9c/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
+    "created_at": "2026-11-10"
+  },
+  {
+    "id": "43351321-b8bb-5758-b264-c013e7f0703f",
     "title": "부산국제의료관광컨벤션",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
     "description": "",
@@ -318,11 +318,11 @@
     "end_date": "2026-11-13",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16883",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16883",
     "created_at": "2026-11-10"
   },
   {
-    "id": "815a03fb-0262-595a-9ab5-54ae803b9d28",
+    "id": "569b781d-a17b-5a35-a382-76676cc8c027",
     "title": "2026년 부산수학축전",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
     "description": "",
@@ -332,11 +332,11 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16884",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16884",
     "created_at": "2026-11-10"
   },
   {
-    "id": "ae2c79f3-af00-5e98-a738-7abf43217e1b",
+    "id": "0f5bdd0c-fd49-5e72-adc9-38d02181fec4",
     "title": "2026 부산광역시 치과기공사회 국제학술대회 및  기자재전시회(BDTEX)",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
     "description": "",
@@ -346,7 +346,7 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "BEXCO",
-    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&page=2&&event_seq=16890",
+    "original_url": "https://www.bexco.co.kr/kor/CMS/EventScheduleMgr/view.do?mCode=MN214&&event_seq=16890",
     "created_at": "2026-11-10"
   },
   {
@@ -378,7 +378,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "b1446a6f-d195-52ab-92d5-51269e094b0c",
+    "id": "788e3cd8-95cb-5631-8af8-6c26f26c4b20",
     "title": "2026 모아맘보육재단 전체 교직원 세미나 & FUNDAY",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/11/26_모아맘보육재단_홈페이지-엠블렘.jpg",
     "description": "",
@@ -388,7 +388,7 @@
     "end_date": "2026-11-14",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%eb%aa%a8%ec%95%84%eb%a7%98%eb%b3%b4%ec%9c%a1%ec%9e%ac%eb%8b%a8-%ec%a0%84%ec%b2%b4-%ea%b5%90%ec%a7%81%ec%9b%90-%ec%84%b8%eb%af%b8%eb%82%98-funday/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/2026-%eb%aa%a8%ec%95%84%eb%a7%98%eb%b3%b4%ec%9c%a1%ec%9e%ac%eb%8b%a8-%ec%a0%84%ec%b2%b4-%ea%b5%90%ec%a7%81%ec%9b%90-%ec%84%b8%eb%af%b8%eb%82%98-funday/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -462,7 +462,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "248ca8e1-e78a-5dd7-840b-b2a4a3cc5756",
+    "id": "8a102cf9-a9de-5274-b8b3-ef5bba073652",
     "title": "2026 서울시 국제 브리지 대회",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/10/브리지.jpg",
     "description": "",
@@ -472,7 +472,7 @@
     "end_date": "2026-11-18",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%ec%8b%9c-%ea%b5%ad%ec%a0%9c-%eb%b8%8c%eb%a6%ac%ec%a7%80-%eb%8c%80%ed%9a%8c/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%84%9c%ec%9a%b8%ec%8b%9c-%ea%b5%ad%ec%a0%9c-%eb%b8%8c%eb%a6%ac%ec%a7%80-%eb%8c%80%ed%9a%8c/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -490,7 +490,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "600ef97a-5e9f-5d0b-ba4e-ff1c9d0c5380",
+    "id": "e5db9a12-6bb1-5b49-9235-a61def080631",
     "title": "대학내일ES 트렌드 컨퍼런스 2027",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/10/T.CON27-1.png",
     "description": "",
@@ -500,7 +500,7 @@
     "end_date": "2026-11-17",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%99%eb%82%b4%ec%9d%bces-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ec%bb%a8%ed%8d%bc%eb%9f%b0%ec%8a%a4-2027/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%eb%8c%80%ed%95%99%eb%82%b4%ec%9d%bces-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ec%bb%a8%ed%8d%bc%eb%9f%b0%ec%8a%a4-2027/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -532,7 +532,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "756e2e46-e371-59d1-ae61-0ad13813cf08",
+    "id": "ef9f19fa-e852-50dd-8481-c7c8a981c86f",
     "title": "SMART HOME INTERIOR 2026: 실내건축의 새로운 패러다임",
     "image_url": "https://www.coex.co.kr/wp-content/themes/coex-visitor/assets/images/bg/bg-hoverConvention.png",
     "description": "",
@@ -542,11 +542,11 @@
     "end_date": "2026-11-19",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/smart-home-interior-2026-%ec%8b%a4%eb%82%b4%ea%b1%b4%ec%b6%95%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ed%8c%a8%eb%9f%ac%eb%8b%a4%ec%9e%84/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
-    "id": "8d3d8aaa-1147-5894-8cdd-a2846ec863f0",
+    "id": "09da951b-0d61-5edc-9124-bd35573f5cc5",
     "title": "제58회 서울국제유아교육전",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/01/제58회-유교전-세계전람.jpg",
     "description": "",
@@ -556,11 +556,11 @@
     "end_date": "2026-11-22",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c58%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%9c%a0%ec%95%84%ea%b5%90%ec%9c%a1%ec%a0%84/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c58%ed%9a%8c-%ec%84%9c%ec%9a%b8%ea%b5%ad%ec%a0%9c%ec%9c%a0%ec%95%84%ea%b5%90%ec%9c%a1%ec%a0%84/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
-    "id": "67072e39-dbaa-5aa0-b37b-7d02c8ede792",
+    "id": "18dcca13-c10b-5e70-86b9-04c9f68632da",
     "title": "글로벌 베이비페어",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/03/2026_11_글로벌-베이비페어_포스터_코엑스용610x610px-jerry.jpg",
     "description": "",
@@ -570,7 +570,7 @@
     "end_date": "2026-11-22",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%ea%b8%80%eb%a1%9c%eb%b2%8c-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%ea%b8%80%eb%a1%9c%eb%b2%8c-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
@@ -616,7 +616,7 @@
     "created_at": "2026-11-10"
   },
   {
-    "id": "3023372b-c17f-5f2d-85e3-d97b1c4a6a36",
+    "id": "f005f1c6-f9f2-5921-a97d-e2208cc4976d",
     "title": "2026 트래블 쇼",
     "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/07/트래블-쇼-2026-앰블럼-임성준.png",
     "description": "",
@@ -626,7 +626,7 @@
     "end_date": "2026-11-22",
     "fee": null,
     "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/?var_page=1&search_start_date=2026.11.10&search_end_date=2026.12.10&list_type=LIST",
+    "original_url": "https://www.coex.co.kr/exhibitions/%eb%a7%88%ec%9d%b8%eb%93%9c%ec%bc%80%ec%96%b4-%ec%9b%b0%eb%8b%88%ec%8a%a4-%eb%a1%9c%ec%bb%ac%eb%b0%94%ec%9d%b4%eb%b8%8c-%ed%8a%b8%eb%9e%98%eb%b8%94-%ec%87%bc/?var_page=1&search_start_date=2026.11.11&search_end_date=2026.12.11&list_type=LIST",
     "created_at": "2026-11-10"
   },
   {
