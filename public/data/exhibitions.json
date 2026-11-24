@@ -98,6 +98,20 @@
     "created_at": "2026-11-24"
   },
   {
+    "id": "736b43d9-5fc7-512b-af6d-1c878411dbdd",
+    "title": "지그재그 블랙프라이데이 직잭팟 게릴라 커피차",
+    "image_url": "https://www.coex.co.kr/wp-content/uploads/2026/11/직잭팟.png",
+    "description": "",
+    "venue": "코엑스 광장",
+    "location": "서울시 강남구 삼성동",
+    "start_date": "2026-11-25",
+    "end_date": "2026-11-25",
+    "fee": null,
+    "source": "COEX",
+    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a7%80%ea%b7%b8%ec%9e%ac%ea%b7%b8-%eb%b8%94%eb%9e%99%ed%94%84%eb%9d%bc%ec%9d%b4%eb%8d%b0%ec%9d%b4-%ec%a7%81%ec%9e%ad%ed%8c%9f-%ea%b2%8c%eb%a6%b4%eb%9d%bc-%ec%bb%a4%ed%94%bc%ec%b0%a8/?var_page=1&search_start_date=2026.11.24&search_end_date=2026.12.24&list_type=LIST",
+    "created_at": "2026-11-24"
+  },
+  {
     "id": "357b08f7-6c50-5cd7-a061-8d9cdb57b050",
     "title": "AIELP( AI Executive Leadership Program)12주",
     "image_url": "https://www.bexco.co.kr/resources/_Img/Contents/event_noimg02.jpg",
@@ -501,20 +515,6 @@
     "fee": null,
     "source": "COEX",
     "original_url": "https://www.coex.co.kr/exhibitions/2026-%ec%9b%94%eb%93%9c-%ec%9b%b9%ed%88%b0-%ed%8e%98%ec%8a%a4%ed%8b%b0%eb%b2%8c/?var_page=1&search_start_date=2026.11.24&search_end_date=2026.12.24&list_type=LIST",
-    "created_at": "2026-11-24"
-  },
-  {
-    "id": "fdbe0778-70d5-5bac-a30c-204eb43d8a77",
-    "title": "제11회 대한민국 소프트웨어 대전, 소프트웨이브 2026",
-    "image_url": "https://www.coex.co.kr/wp-content/uploads/2025/03/소프트웨이브2026_26년도-코엑스웹배너_261119-2.png",
-    "description": "",
-    "venue": "Hall A",
-    "location": "서울시 강남구 삼성동",
-    "start_date": "2026-12-02",
-    "end_date": "2026-12-04",
-    "fee": null,
-    "source": "COEX",
-    "original_url": "https://www.coex.co.kr/exhibitions/%ec%a0%9c11%ed%9a%8c-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%eb%8c%80%ec%a0%84-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%9d%b4%eb%b8%8c-2026/?var_page=1&search_start_date=2026.11.24&search_end_date=2026.12.24&list_type=LIST",
     "created_at": "2026-11-24"
   },
   {
